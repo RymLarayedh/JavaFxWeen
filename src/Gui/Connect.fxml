@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.ConnectController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1026.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../buttons/accueilInternaute.png" />
+         </image>
+      </ImageView>
+      <ImageView id="rym" fitHeight="534.0" fitWidth="497.0" layoutX="266.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../buttons/signup.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ajouter" layoutX="375.0" layoutY="403.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="46.0" prefWidth="273.0" text="Sign In" />
+      <TextField fx:id="logintf" layoutX="453.0" layoutY="220.0" promptText="Login" />
+      <PasswordField fx:id="passwordtf" layoutX="453.0" layoutY="262.0" promptText="Password" />
+   </children>
+   <stylesheets>
+    <URL value="@IssueTrackingLite.css" />
+  </stylesheets>
+</AnchorPane>

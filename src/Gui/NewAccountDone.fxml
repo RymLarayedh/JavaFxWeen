@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.NewAccountDoneController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1026.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../buttons/accueilInternaute.png" />
+         </image>
+      </ImageView>
+      <ImageView id="rym" fitHeight="534.0" fitWidth="497.0" layoutX="266.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../buttons/signup.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="43.0" layoutX="491.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../buttons/Checkmark-50.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="402.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Inscription is successfuly done" />
+      <Text layoutX="415.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="your account will be ready soon" />
+      <Button fx:id="ajouter" layoutX="375.0" layoutY="403.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="46.0" prefWidth="273.0" text="Sign In" />
+      <Text fx:id="yourname" fill="#609fcd" layoutX="418.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="188.0">
+         <font>
+            <Font size="49.0" />
+         </font></Text>
+   </children>
+   <stylesheets>
+    <URL value="@IssueTrackingLite.css" />
+  </stylesheets>
+</AnchorPane>
